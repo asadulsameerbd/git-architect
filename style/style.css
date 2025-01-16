@@ -6,3 +6,40 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+  /* Navbar style start from here */
+header{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+}
+.page{
+  list-style: none;
+}
+.page-link{
+  text-decoration: none;
+  font-family: work sans;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px;
+}
+.nav-container>h3{
+  font-family: work sans;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
+}
