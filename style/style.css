@@ -11,6 +11,7 @@
   /* Navbar style start from here */
 header{
   background-color: rgba(255, 144, 14, 0.1);
+  margin: 0px;
 }
 body{
   margin: 0;
@@ -32,15 +33,51 @@ body{
   list-style: none;
 }
 .page-link{
+  color: #424242;
   text-decoration: none;
   font-family: work sans;
   font-size: 18px;
   font-weight: 500;
   padding: 20px;
 }
-.nav-container>h3{
+.nav-title{
   font-family: work sans;
-  font-size: 35px;
+  font-size: 1.85rem;
   font-weight: bold;
   padding: 10px;
+}
+
+/* Banner Style Start from Here */
+
+#banner-container{
+  background-color: #FFF4E6;
+  margin: 0px;
+}
+.banner-title{
+  font-family: work sans;
+  font-weight: 700;
+  font-size: 60px;
+}
+.banner-description{
+  color: #727272;
+  font-family: work sans;
+}
+.banner-content{
+  max-width: 860px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 50px;
+}
+.btn-primary{
+  background-color: rgba(255, 144, 14, 1);
+  color: #FFFFFF;
+  margin-top: 10px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.banner-img{
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 40px;
 }
