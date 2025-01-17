@@ -66,6 +66,7 @@ body{
   max-width: 860px;
   margin: 0px auto;
   text-align: center;
+  justify-content: center;
   padding: 50px;
 }
 .btn-primary{
@@ -75,9 +76,45 @@ body{
   padding: 20px;
   border: none;
   border-radius: 10px;
+  font-family: work sans;
+  font-weight: 600;
 }
 .banner-img{
   max-width: 1500px;
   margin: 0px auto;
   padding: 40px;
+}
+.ban-img{
+  width: 100%;
+}
+
+/*  responsive Banner and Header item for Smaller device */
+@media screen and (max-width:576px) {
+  /* Header */
+  .nav-container{
+    flex-direction: column;
+  }
+  .navbar{
+    align-items: center;
+  }
+  .page-link{
+    font-size: 14px;
+  }
+
+  /* Banner Style */
+  .banner-content{
+    padding-top: 100px; 
+  }
+  .banner-title{
+    font-size: 30px;
+  }
+  .banner-description{
+    font-size: 15px;
+  }
+  .btn-primary{
+    padding: 12px 20px;
+  }
+  .banner-img{
+    margin-top: -40px;
+  }
 }
