@@ -7,7 +7,10 @@
     font-style: normal;
   }
 
-
+main{
+  max-width: 1400px;
+  margin: 0px auto;
+}
   /* Navbar style start from here */
 header{
   background-color: rgba(255, 144, 14, 0.1);
@@ -138,6 +141,75 @@ body{
 #feature{
   margin: 30px auto;
 }
+/* Feature Section style End From here */
+
+/* Experience Section style from here */
+.experience-container{
+  display: flex;
+  margin: 100px auto;
+}
+.ex-left{
+  padding-top: 50px;
+}
+.ex-title{
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-left: 5px solid rgb(255, 144, 14);
+  padding-left: 20px;
+}
+.ex-description{
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box{
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding:20px 10px 10px 30px;
+  margin-right: 20px;
+}
+.box-title{
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box-description{
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ex-right>img{
+  padding: 30px;
+  margin-left: 20px ;
+}
+.btn-title{
+  font-size: 30px;
+}
+#btn-box{ 
+  padding: 40px 60px 40px 60px;
+  margin-top: -260px;
+}
+
+
+
+
 
 /*  responsive Banner and Header item for Smaller device */
 @media screen and (max-width:576px) {
